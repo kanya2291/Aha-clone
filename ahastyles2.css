@@ -1,0 +1,20 @@
+.cardd2{
+    background-color: rgb(29,28,28);
+    width: 10rem;
+    margin-right: -100px;
+    border:none;
+    border-radius: 20px;
+    gap: -10px  ;
+    
+}
+.carddimg2{
+    height: 15rem;
+}
+.paraa2{
+    margin-left: 30px;
+}
+.cardd2:hover{
+    margin-top: -4px;
+    cursor: pointer;
+    transition: 0.5s;
+}

@@ -1,0 +1,20 @@
+.cardd3{
+    background-color: rgb(29,28,28);
+    width: 13rem;
+    margin-right: -20px;
+    border:none;
+    border-radius: 20px;
+    gap: -10px  ;
+    
+}
+.carddimg3{
+    height: 7rem;
+}
+.paraa3{
+    margin-left: 30px;
+}
+.cardd3:hover{
+    margin-top: -4px;
+    cursor: pointer;
+    transition: 0.5s;
+}

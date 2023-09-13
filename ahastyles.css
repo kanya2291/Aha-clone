@@ -1,0 +1,106 @@
+.main{
+    background-color: grey;
+}
+.navbar {
+    /* position: fixed; */
+    width: 100%;
+    display: flex;
+    padding: 0p;
+    color: black;
+    background-color: black;
+   
+}
+.nav{
+    justify-content: space-between;
+    display: flex;
+    background-color:rgb(12, 12, 12);
+    position: fixed;
+    z-index: 1;
+    margin-top: -580px;
+    padding: 20px 20px;
+    /* margin-left: 10px; */
+    
+    
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:35px;
+    margin-left: 10px;
+}
+.nav ul li{
+    cursor: pointer;
+    color: white;
+}
+.imgdiv{
+    display: flex;
+    padding:0px 10px;
+}
+.imgdiv img{
+    width: 60px;
+}
+.rightnav{
+    float: right;
+    /* padding: 15px 15px; */
+}
+.rightnav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:35px;
+}
+.rightnav ul li button{
+    border-radius: 50px;
+    background-color: tomato;
+}
+.rightnav ul .imgg{
+    display: flex;
+    gap: 5px;
+}
+.corousel .d-block{
+    width:1834px;
+    height: 570px;
+    /* margin-top: -20px; */
+    margin-top: 50px;
+}
+.corousel{
+    position: relative;
+}
+.actors{
+    /* margin-top: 540px; */
+    padding: 20px;
+    background-color: rgb(29, 28, 28);
+    color:white;
+}
+.actors img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 8px;
+    cursor: pointer;
+}
+.actors img:hover{
+    margin-top:-20px;
+    transition: 0.5s;
+}
+.top10{
+    padding: 20px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+.nsw{
+    padding: 20px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+.upcoming{
+    padding:20px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+.livenews{
+    padding:20px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
